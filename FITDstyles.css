@@ -1,0 +1,52 @@
+body {
+	margin-top: 70px;
+	text-align: justify;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid 2px black;
+}
+
+header * {
+	display: inline;
+}
+
+header li {
+	margin: 20px;
+}
+
+header h1 {
+	font-size: 40px;
+}
+
+main {
+	width: 70%;
+	margin: auto;
+}
+
+.title_plus_image {
+	display: flex;
+	justify-content: center;
+}
+
+.title_plus_image h1 {
+	align-self: center;
+}
+
+.title_plus_image img {
+	width: 400px;
+	height: 100px;
+	object-fit: cover;
+	object-position: 100% 50%;
+}
+
+
