@@ -49,4 +49,21 @@ main {
 	object-position: 100% 50%;
 }
 
+hr {
+	border: none;
+	border-top: 1px solid black;
+}
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.numeric {
+	text-align: right;
+}
+
+.chart {
+	height: 250px;
+	width: 550px;
+}
