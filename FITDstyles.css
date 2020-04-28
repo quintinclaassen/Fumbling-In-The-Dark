@@ -63,7 +63,32 @@ table, th, td {
 	text-align: right;
 }
 
+.total {
+	border-top: 3px solid black;
+}
+
 .chart {
-	height: 250px;
+	height: 230px;
 	width: 550px;
+}
+
+.monday_update {
+	/* make element inline flex-container */
+	/* this will make its children flex-items */
+	width: 100%;
+	display: inline-flex;
+	/* align-items items in column */
+	/*flex-direction: column;*/
+	/* center items horizontally */
+	align-items: center;
+	/* center items vertically */
+	justify-content: center;
+}
+
+.monday_update table {
+	margin: 20px;
+}
+
+.monday_update img {
+	width: 400px;
 }
